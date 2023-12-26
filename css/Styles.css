@@ -1,0 +1,334 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Lucida Console;
+}
+
+.Background {
+	background-color: #FF1493;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.text-image1 {
+	position: absolute;
+	font-family: Calibri;
+	color: white;
+	font-size: 40px;
+	margin: auto;
+	padding: auto;
+	position: relative;	
+	top: -120%;
+	width: 70%;
+	height: auto;
+}
+
+.text-image2 {
+	position: absolute;
+	font-family: Calibri;
+	color: white;
+	font-size: 40px;
+	margin: auto;
+	padding: auto;
+	position: relative;	
+	top: -120%;
+	width: 70%;
+	height: auto;
+}
+
+footer {
+	position: relative;
+	flex: bottom;
+	bottom: -847px;
+	width: 100%;
+	margin: 0;
+	height: 60px;
+	background-color: #FF4500;
+}
+
+#text-footer1 {
+	position: relative; 
+	font-family: Calibri;
+	color: black;
+	top: -10px;
+	right: 40px;
+	float: right;
+}
+
+#text-footer2 {
+	position: relative; 
+	font-family: Calibri;
+	color: black;
+	top: 20px;
+	float: right;
+	right: -70px;
+}
+
+#text-footer3 {
+	position: relative; 
+	font-family: Calibri;
+	color: black;
+	top: -10px;
+	float: left;
+	right: -30px;
+}
+
+#text-footer4 {
+	position: relative; 
+	font-family: Calibri;
+	color: black;
+	top: 20px;
+	float: left;
+	right: 200px;
+}
+
+.navigation-top {
+	background-color: #FF1493;
+	margin: auto;
+	height: 50px;
+	width: auto;
+}
+
+#firstnav {	
+	position: relative;
+	top: 10px;
+	left: 13%;
+	font-size: 30px; 
+	color: #E0FFFF;
+	text-decoration: none;
+	transition: background 0.4s linear, color 0.4s linear;
+}
+
+#firstnav:hover {
+	color:#3333CC;
+}
+
+#secondnav {	
+	position: relative;
+	top: 10px;
+	left: 38%;
+	font-size: 30px; 
+	color: #E0FFFF;
+	text-decoration: none;
+	transition: background 0.4s linear, color 0.4s linear;
+}
+
+#secondnav:hover {
+	color: #3333CC;
+}
+#threenav {	
+	position: relative;
+	top: 10px;
+	left: 60%;
+	font-size: 30px; 
+	color: #E0FFFF;
+	text-decoration: none;
+	transition: background 0.4s linear, color 0.4s linear;
+}
+
+#threenav:hover {
+	color: #3333CC;
+}
+
+.images {
+	width: 100%;
+	background-color: #FF1493;
+}
+
+.img2 {
+	margin: auto;
+	background-color: #FF1493;
+	padding: auto;
+	position: relative;	
+	top: -3px;
+	width: 100%;
+	height: 450px;
+}
+
+.img1 {
+	margin: auto;
+	background-color: #FF1493;
+	padding: auto;
+	position: relative;	
+	top: -453px;
+	width: 100%;
+	height: 450px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .2s, visibility .2s;
+}
+
+.background1 {
+	background-color: #FF1493;
+	visibility: visible;
+  	opacity: 1;
+}
+
+#btnControl:checked + label .img1 {
+	visibility: visible;
+	opacity: 1;	
+}
+
+#btnControl {
+	display: none;
+}
+
+.Background-Conus {
+	position: relative;
+	display: inline-block;
+	background-color: #8A2BE2;
+	width: 100%;
+	height: 960px;
+}
+
+.Conus1 {
+	position: absolute;
+	float: left;
+	top: 170px;
+	left: 180px;
+	width: 250px;
+	height: 230px;
+	transition: all 0.5s;
+}
+
+.Conus1:hover {
+	transform: scale(1.1);
+}
+
+.Conus2 {
+	position: absolute;
+	float: right;
+	top: 170px;
+	right: 180px;
+	width: 250px;
+	height: 230px;
+	transition: all 0.5s;
+}
+
+.Conus2:hover {
+	transform: scale(1.1);
+}
+
+.Conus3 {
+	position: absolute;
+	top: 560px;
+	float: left;
+	left: 180px;
+	width: 250px;
+	height: 230px;
+	transition: all 0.5s;
+}
+
+.Conus3:hover {
+	transform: scale(1.1);
+}
+
+.Conus4 {
+	position: absolute;
+	top: 560px;
+	float: right;
+	right: 180px;
+	width: 250px;
+	height: 230px;
+	transition: all 0.5s;
+}
+
+.Conus4:hover {
+	transform: scale(1.1);
+}
+
+#Conus-text1 {
+	position: absolute;
+	float: left;
+	top: 400px;
+	left: 260px;
+	color: white;
+	font-size: 20px;
+}
+
+#Conus-text2 {
+	position: absolute;
+	float: right;
+	right: 235px;
+	top: 400px;
+	color: white;
+	font-size: 20px;
+}
+
+#Conus-text3 {
+	position: absolute;
+	top: 800px;
+	left: 220px;
+	float: left;
+	color: white;
+	font-size: 20px;
+}
+
+#Conus-text4 {
+	position: absolute;
+	top: 800px;
+	right: 270px;
+	float: left;
+	color: white;
+	font-size: 20px;
+}
+
+.Label-text {
+	padding: 5px;
+	text-align: center;
+	position: relative; 
+	font-size: 60px;
+	font-family: Calibri;
+	color: white;
+}
+
+.BackgroundMonsters {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#ImageMonsters1 {
+	position: absolute;
+	float: left;
+	top: 480%;
+	left: 3%;
+	width: 350px;
+	height: 440px;
+	transition: all 0.5s;
+}
+
+#ImageMonsters1:hover {
+	transform: scale(1.1);
+}
+
+#ImageMonsters2 {
+	position: absolute;
+	top: 480%;
+	left: 36%;
+	width: 350px;
+	height: 440px;
+	transition: all 0.5s;
+}
+
+#ImageMonsters2:hover {
+	transform: scale(1.1);
+}
+
+#ImageMonsters3 {
+	position: absolute;
+	top: 480%;
+	left: 69%;
+	width: 350px;
+	height: 440px;
+	transition: all 0.5s;
+}
+
+#ImageMonsters3:hover {
+	transform: scale(1.1);
+}
+
+
